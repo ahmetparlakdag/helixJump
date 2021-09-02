@@ -1,26 +1,44 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class PlatformPass : MonoBehaviour
 {
     [SerializeField] private int passScore;
-    [SerializeField] private Material dead;
-    [SerializeField] private GameObject[] platformArray = new GameObject[8];
-    public static GameObject deadPart;
+
+
     private int platformChooser;
+    [SerializeField]private PlatformSlice[] platformSlices;
+
     private void OnTriggerEnter(Collider other)
     {
         GameManager.singleton.AddScore(passScore);
     }
     void Start()
     {
-        platformChooser = Random.Range(0, 8);
-        Destroy(platformArray[platformChooser]);
-        platformArray[platformChooser] = platformArray[7];
-        platformChooser = Random.Range(0, 7);
-        platformArray[platformChooser].GetComponent<MeshRenderer>().material = dead;
-        deadPart = platformArray[platformChooser];
+        int emptyPlatform = Random.Range(0, platformSlices.Length);
+        int deadlyPlatform = Random.Range(0, platformSlices.Length);
+        while (deadlyPlatform == emptyPlatform)
+        {
+            deadlyPlatform = Random.Range(0, platformSlices.Length);
+        }
+
+        for (var i = 0; i < platformSlices.Length; i++)
+        {
+            if (i == emptyPlatform)
+            {
+                platformSlices[i].Init(SliceType.Empty);
+            }else if (i == deadlyPlatform)
+            {
+                platformSlices[i].Init(SliceType.Deadly);
+            }
+            else
+            {
+                platformSlices[i].Init(SliceType.Normal);
+            }
+        }
     }
 
     // Update is called once per frame
@@ -28,4 +46,5 @@ public class PlatformPass : MonoBehaviour
     {
         
     }
+    
 }

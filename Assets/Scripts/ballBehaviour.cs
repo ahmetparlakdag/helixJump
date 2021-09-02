@@ -18,9 +18,11 @@ public class ballBehaviour : MonoBehaviour
     public void ResetPos()
     {
         transform.position = startPos;
+        rb.velocity = Vector3.zero;
     }
-    private void nextCollTrigger()
+    private IEnumerator nextCollTrigger()
     {
+        yield return new WaitForSeconds(0.2f);
         allowNextCollision = true;
     }
     private void OnCollisionEnter(Collision collision)
@@ -29,26 +31,26 @@ public class ballBehaviour : MonoBehaviour
         {
             return;
         }
-        foreach(ContactPoint contact in collision.contacts)
+
+        if (collision.gameObject.TryGetComponent(out PlatformSlice slice))
         {
-            if (contact.otherCollider.gameObject == PlatformPass.deadPart)
+            if (slice.sliceType == SliceType.Deadly)
             {
                 GameManager.singleton.RestartLevel();
             }
             else
             {
-                rb.velocity = Vector3.zero;
-                rb.AddForce(Vector3.up * jumpForce);
-                allowNextCollision = false;
-                Invoke("nextCollTrigger", 0.2f);
+                BallJump();
             }
         }
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    private void BallJump()
     {
-        
+        rb.velocity = Vector3.zero;
+        rb.AddForce(Vector3.up * jumpForce);
+        allowNextCollision = false;
+        StartCoroutine(nextCollTrigger());
     }
+    
 }
