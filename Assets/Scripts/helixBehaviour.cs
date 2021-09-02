@@ -6,11 +6,17 @@ public class helixBehaviour : MonoBehaviour
 {
     public float rotateSpeed;
     private float moveX;
+    private Quaternion startRot;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        startRot = transform.rotation;
+    }
+
+    public void ResetRotation()
+    {
+        transform.rotation = startRot;
     }
 
     // Update is called once per frame

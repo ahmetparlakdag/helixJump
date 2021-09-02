@@ -1404,3 +1404,75 @@ System memory in use after: 59.1 MB.
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1741.
 Total: 3.485100 ms (FindLiveObjects: 0.174900 ms CreateObjectMapping: 0.046700 ms MarkObjects: 2.083100 ms  DeleteObjects: 1.178500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 2161.451074 seconds.
+  path: Assets/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d68852644c2c497c876837496531c08') in 0.208467 seconds
+  Import took 0.211930 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.331 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1130 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 62.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1751.
+Total: 2.310000 ms (FindLiveObjects: 0.168700 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.735500 ms  DeleteObjects: 0.368000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000742 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1130 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 62.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1754.
+Total: 2.310300 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.038800 ms MarkObjects: 1.728200 ms  DeleteObjects: 0.349900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1130 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 62.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1757.
+Total: 2.345900 ms (FindLiveObjects: 0.192800 ms CreateObjectMapping: 0.044200 ms MarkObjects: 1.755000 ms  DeleteObjects: 0.352800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

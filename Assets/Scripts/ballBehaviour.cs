@@ -7,13 +7,18 @@ public class ballBehaviour : MonoBehaviour
     public Rigidbody rb;
     [SerializeField] private float jumpForce;
     private bool allowNextCollision = true;
+    private Vector3 startPos;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        startPos = transform.position;
     }
 
+    public void ResetPos()
+    {
+        transform.position = startPos;
+    }
     private void nextCollTrigger()
     {
         allowNextCollision = true;

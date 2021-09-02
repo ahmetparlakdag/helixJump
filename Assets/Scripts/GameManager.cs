@@ -36,6 +36,8 @@ public class GameManager : MonoBehaviour
     public void RestartLevel()
     {
         Debug.Log("Restart Level!!!");
+        FindObjectOfType<ballBehaviour>().ResetPos();
+        FindObjectOfType<helixBehaviour>().ResetRotation();
     }
 
     public void AddScore(int score)
