@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class dsfdghf : MonoBehaviour
+public class GoalPlatform : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private void OnCollisionEnter(Collision collision)
+    {
+        GameManager.singleton.NextLevel();
+    }
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         
