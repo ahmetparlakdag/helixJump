@@ -7,6 +7,7 @@ public class helixBehaviour : MonoBehaviour
     public float rotateSpeed;
     private float moveX;
     private Quaternion startRot;
+    [SerializeField] private PlatformPass[] helixPlatforms;
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +15,13 @@ public class helixBehaviour : MonoBehaviour
         startRot = transform.rotation;
     }
 
+    public void recreatePlatforms()
+    {
+        for (var i = 0; i < helixPlatforms.Length; i++)
+        {
+            helixPlatforms[i].gameObject.SetActive(true);
+        }
+    }
     public void ResetRotation()
     {
         transform.rotation = startRot;

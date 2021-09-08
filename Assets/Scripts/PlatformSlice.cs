@@ -6,6 +6,7 @@ public class PlatformSlice : MonoBehaviour
     [SerializeField] private MeshRenderer _meshRenderer;
     [SerializeField] private MeshCollider _collider;
     [SerializeField] private Material _dead;
+    public GameObject hurdle;
 
     private void Start()
     {
@@ -23,6 +24,13 @@ public class PlatformSlice : MonoBehaviour
         }else if (type == SliceType.Deadly)
         {
             _meshRenderer.material = _dead;
+        }
+        else if(type == SliceType.Normal)
+        {
+            if(Random.value>0.9)
+            {
+                hurdle.gameObject.SetActive(true);
+            }
         }
     }
 }

@@ -10,11 +10,18 @@ public class PlatformPass : MonoBehaviour
 
 
     private int platformChooser;
-    [SerializeField]private PlatformSlice[] platformSlices;
+    [SerializeField] private PlatformSlice[] platformSlices;
 
     private void OnTriggerEnter(Collider other)
     {
+        ballBehaviour.jumpEnabler = false;
         GameManager.singleton.AddScore(passScore);
+        ballBehaviour.comboCounter++;
+        Debug.Log(ballBehaviour.comboCounter);
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        ballBehaviour.jumpEnabler = true;
     }
     void Start()
     {

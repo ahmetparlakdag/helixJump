@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public int currentScore;
     public int highScore;
+    public int difficulty = 1; // Easy-Medium-Hard -> 0-1-2
     public static GameManager singleton;
 
     void Start()
@@ -28,9 +29,9 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public void NextLevel()
+    public void EndGame()
     {
-        Debug.Log("Next Level!!!");
+        Debug.Log("Game Over!!!");
     }
 
     public void RestartLevel()
@@ -38,6 +39,9 @@ public class GameManager : MonoBehaviour
         Debug.Log("Restart Level!!!");
         FindObjectOfType<ballBehaviour>().ResetPos();
         FindObjectOfType<helixBehaviour>().ResetRotation();
+        FindObjectOfType<helixBehaviour>().recreatePlatforms();
+        ballBehaviour.comboCounter = 0;
+        currentScore = 0; 
     }
 
     public void AddScore(int score)

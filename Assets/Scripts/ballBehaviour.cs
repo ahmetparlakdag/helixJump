@@ -5,9 +5,13 @@ using UnityEngine;
 public class ballBehaviour : MonoBehaviour
 {
     public Rigidbody rb;
+    public static int comboCounter;
+    private bool comboActive;
     [SerializeField] private float jumpForce;
     private bool allowNextCollision = true;
     private Vector3 startPos;
+    public static bool jumpEnabler = true;
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +36,20 @@ public class ballBehaviour : MonoBehaviour
             return;
         }
 
-        if (collision.gameObject.TryGetComponent(out PlatformSlice slice))
+        if(comboActive)
+        {
+            if(collision.gameObject.TryGetComponent(out PlatformSlice slice))
+            {
+                ComboHit(collision.gameObject.transform.parent.gameObject);
+            }
+            else
+            {
+                ComboHit(collision.gameObject.transform.parent.gameObject.transform.parent.gameObject); //hurdle's parent's parent == platform
+            }
+
+        }
+
+        else if (collision.gameObject.TryGetComponent(out PlatformSlice slice))
         {
             if (slice.sliceType == SliceType.Deadly)
             {
@@ -43,14 +60,42 @@ public class ballBehaviour : MonoBehaviour
                 BallJump();
             }
         }
+        else if(collision.gameObject.transform.parent.gameObject.TryGetComponent(typeof(PlatformSlice), out Component component)) //hurdle touch, restart
+        {
+            GameManager.singleton.RestartLevel();
+        }
     }
 
     private void BallJump()
     {
-        rb.velocity = Vector3.zero;
-        rb.AddForce(Vector3.up * jumpForce);
-        allowNextCollision = false;
-        StartCoroutine(nextCollTrigger());
+        if(jumpEnabler)
+        {
+            comboCounter = 0;
+            rb.velocity = Vector3.zero;
+            rb.AddForce(Vector3.up * jumpForce);
+            allowNextCollision = false;
+            StartCoroutine(nextCollTrigger());
+        }
     }
-    
+
+
+    void Update()
+    {
+        if (comboCounter > 2)
+        {
+            comboActive = true;
+        }
+        
+    }
+
+    private void ComboHit(GameObject Platform)
+    {
+        Platform.SetActive(false);  //ComboJump
+        GameManager.singleton.AddScore(comboCounter * 10);
+        comboActive = false;
+        jumpEnabler = true;
+        BallJump();
+        comboCounter = 0;
+    }
+
 }
