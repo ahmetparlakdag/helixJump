@@ -6,7 +6,6 @@ public class GameManager : MonoBehaviour
 {
     public int currentScore;
     public int highScore;
-    public int difficulty = 1; // Easy-Medium-Hard -> 0-1-2
     public static GameManager singleton;
 
     void Start()

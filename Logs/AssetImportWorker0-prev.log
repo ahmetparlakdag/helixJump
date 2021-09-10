@@ -15,11 +15,11 @@ C:/Users/Ahmet/Documents/Unity Projects/helixJump
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51363
+53072
 Successfully changed project path to: C:/Users/Ahmet/Documents/Unity Projects/helixJump
 C:/Users/Ahmet/Documents/Unity Projects/helixJump
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,18 +35,1639 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.368516 seconds.
+Registered in 0.002760 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 57.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 27.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 10.681 seconds
+- Completed reload, in  2.267 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.060293 seconds.
+Registered in 0.000871 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.9 MB.
+System memory in use after: 59.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1587.
+Total: 1.923600 ms (FindLiveObjects: 0.143300 ms CreateObjectMapping: 0.034100 ms MarkObjects: 1.627000 ms  DeleteObjects: 0.118000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/boost.mat
+  artifactKey: Guid(cc03d34f7a947314190fdf52132465f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/boost.mat using Guid(cc03d34f7a947314190fdf52132465f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcd5b56f628b9dbf87ccc4dab106067') in 0.160157 seconds
+  Import took 0.162480 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.6 MB.
+System memory in use after: 39.7 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1627.
+Total: 3.018800 ms (FindLiveObjects: 0.129200 ms CreateObjectMapping: 0.036800 ms MarkObjects: 2.800400 ms  DeleteObjects: 0.051400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.821 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.9 MB.
+System memory in use after: 61.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1630.
+Total: 1.999400 ms (FindLiveObjects: 0.144400 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.767100 ms  DeleteObjects: 0.056900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 203.145666 seconds.
+  path: Assets/Scripts/ballBehaviour.cs
+  artifactKey: Guid(4401367d694811b488021d819b098f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ballBehaviour.cs using Guid(4401367d694811b488021d819b098f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b616dbe45303ef3addf561c04fefada7') in 0.024526 seconds
+  Import took 0.028521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021924 seconds.
+  path: Assets/Scripts/ballBehaviour.cs
+  artifactKey: Guid(4401367d694811b488021d819b098f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ballBehaviour.cs using Guid(4401367d694811b488021d819b098f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b616dbe45303ef3addf561c04fefada7') in 0.003112 seconds
+  Import took 0.006460 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003029 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.9 MB.
+System memory in use after: 61.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1633.
+Total: 1.636900 ms (FindLiveObjects: 0.129600 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.417700 ms  DeleteObjects: 0.055800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.938375 seconds.
+  path: Assets/Scripts/ballBehaviour.cs
+  artifactKey: Guid(4401367d694811b488021d819b098f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ballBehaviour.cs using Guid(4401367d694811b488021d819b098f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f8b35d0c9e4e06f973dd1338149415') in 0.005841 seconds
+  Import took 0.007866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 412.937759 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e18dcbbd6d6450599ae97e0f499aed2') in 0.094542 seconds
+  Import took 0.098492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.350304 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2731d9ae905d33efbfc99da55159f8ba') in 0.016755 seconds
+  Import took 0.027084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.984188 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3b3e1c6486b4b542b5defb82baf8f6') in 0.034590 seconds
+  Import took 0.039182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.059568 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e98283cb20306e1cbec08bc9c844108') in 0.033289 seconds
+  Import took 0.036774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.388177 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d9a1c2da3fff7252022da2752d5b39') in 0.024731 seconds
+  Import took 0.027780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.790319 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc8ba9b02d6b8390b92dc8b14b59bf1') in 0.032719 seconds
+  Import took 0.038165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.554462 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcf95a5395d1fad4b6dd1b2128782e7') in 0.020125 seconds
+  Import took 0.022337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.391170 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1aa4683e1a40795cbccdd68d3359d8') in 0.033349 seconds
+  Import took 0.036399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.988367 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53f4d0ebd5b465367be826ce4d60e19') in 0.058778 seconds
+  Import took 0.061761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.235905 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d7f4318cf73c0ca2b078abe951b131') in 0.034497 seconds
+  Import took 0.042224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.797111 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd4df4f2db2a423651d01a318499b10') in 0.036757 seconds
+  Import took 0.039682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.434146 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c761a722c80fe5ccc0afaa35aee4415d') in 0.027916 seconds
+  Import took 0.030489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.825318 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74faab15432b195bf358b8cafa9641') in 0.034884 seconds
+  Import took 0.040250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.551570 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265e607c5a2e790bfee4af8f9ac21d6a') in 0.036155 seconds
+  Import took 0.039008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.419678 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d809b9b1fb32b4f06616690d9cfeb6') in 0.017205 seconds
+  Import took 0.020626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.475394 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03c66849f4752757bd60469c3902ffe') in 0.032782 seconds
+  Import took 0.037334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.202401 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6667d84e8ba978f303bddd6ea1dfc0e') in 0.031180 seconds
+  Import took 0.038647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.647391 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade9f0ed200a0e26d3e0da599cbc1f1f') in 0.027917 seconds
+  Import took 0.032062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.382240 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45513d868893334d2f613dd537fa5458') in 0.025729 seconds
+  Import took 0.028791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.811556 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b1e8698f87fce9ac440c57bbf83a69') in 0.029510 seconds
+  Import took 0.034234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.991724 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cbf5ad2f6c7b5e89a6e70e5553b7e9') in 0.028639 seconds
+  Import took 0.033095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.867646 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e733064822d94ce65af5158fda0c286') in 0.065138 seconds
+  Import took 0.069525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.042527 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c62a3eeee3cfd181a3011b3b40972b') in 0.041818 seconds
+  Import took 0.047464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.620467 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6d01e3db657fb393e685e411c290c6') in 0.031409 seconds
+  Import took 0.037048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.698689 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e218eec7856b6eef3b717b901d367ac5') in 0.015821 seconds
+  Import took 0.018464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.654936 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eec600d001acbdc9d82dbe3038ece94') in 0.065458 seconds
+  Import took 0.072337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.466364 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd051b468aeab4cbfda1da00ae7dc76f8') in 0.032280 seconds
+  Import took 0.039330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.849316 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5579ac0990c9090355934ae61a6ac5') in 0.051535 seconds
+  Import took 0.053895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.135511 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c552b6ad7f67121a6650a8fb51fd84') in 0.019404 seconds
+  Import took 0.022410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.037702 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee70ddcfc67766dfb73c3127d825b97a') in 0.033138 seconds
+  Import took 0.037039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.915660 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1abd2b64ab83a38e3e16ee35bd9b33e') in 0.038345 seconds
+  Import took 0.042683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.989787 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cc3c5cf86a40217a3d6e2201581b74') in 0.034074 seconds
+  Import took 0.039013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.395806 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7ab9dc5e286fabca215d9fc90c5128') in 0.028034 seconds
+  Import took 0.032353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.370416 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c15dd70180e5ac76de28abef0131a1') in 0.022368 seconds
+  Import took 0.025358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.181668 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc21170e0aa3236074b0b6e6f1a01073') in 0.021097 seconds
+  Import took 0.023767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.602592 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ced2515846e94e666af5653f10f8ec') in 0.037551 seconds
+  Import took 0.041209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.987677 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ace78b0955eee127a745d6c8298040') in 0.022808 seconds
+  Import took 0.026994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.189039 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c772bbae6f738bfbf44a6eeac8ff47') in 0.030933 seconds
+  Import took 0.033301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.453065 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5deacdf5f857acd0b77e41d0e5178b3') in 0.055142 seconds
+  Import took 0.063245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.613517 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb547920b0289a8b236961ee1eff2824') in 0.032175 seconds
+  Import took 0.038363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.133277 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954e4782abb98437b57559df7a01f7dc') in 0.036550 seconds
+  Import took 0.043267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.954571 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f17f99b4716a0fcb681275128446b2') in 0.032352 seconds
+  Import took 0.035780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.568459 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3da1bc70aedf8fb6d0a731cd07e392c') in 0.031739 seconds
+  Import took 0.034385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.371717 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ab41efc7926049c9fbc51335bae1df') in 0.030998 seconds
+  Import took 0.034022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.371578 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2c920d1269798f97a79dda04693798') in 0.029968 seconds
+  Import took 0.032732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.379500 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b506941d5e9ed1a755c695b0111e71e') in 0.037951 seconds
+  Import took 0.041678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.371997 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92af40ad176aed1216291b6eca572f0') in 0.040102 seconds
+  Import took 0.043563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.576807 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5665b4dfce3cb8fc238a4d0d1cdb9fd5') in 0.029856 seconds
+  Import took 0.032649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.091168 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33293285a2be0bab022ab84a792098de') in 0.052243 seconds
+  Import took 0.054965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.907267 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b447f6f01250725b939338a25f922a82') in 0.040014 seconds
+  Import took 0.043154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.475408 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0713157f53ac41a855f849137761743c') in 0.029355 seconds
+  Import took 0.032094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.892920 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7129aed5c0d713015d5516bd7052d2') in 0.066203 seconds
+  Import took 0.069177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.345078 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7c1a6045a4710b8fe76d6b56bbe689') in 0.037424 seconds
+  Import took 0.040200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.505391 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d56e84f37e9e00c0e1f97ef3c26b9ef') in 0.022679 seconds
+  Import took 0.025546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.973622 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1131690e7e743c0b3f5d7b7b1e3e687d') in 0.028609 seconds
+  Import took 0.031524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.028814 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bf55d15a0ef17efddc513c482217f6') in 0.021844 seconds
+  Import took 0.024439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.059600 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f832f3919bb3e2524ad634b6a73810e') in 0.071889 seconds
+  Import took 0.075899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.426289 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cd2390035c9679122e211b6b5cf26b') in 0.021831 seconds
+  Import took 0.024445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.309181 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afa736e66f9cb98e4aa2641e8eff8f4') in 0.029596 seconds
+  Import took 0.034206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.919215 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571d32d803da6d82dc60a64cd404eaf5') in 0.024518 seconds
+  Import took 0.027861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.415351 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c073b54ba9e3c046eff2a15b432cca') in 0.067626 seconds
+  Import took 0.070472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.074502 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874a6061d6db2aa06f4962525f2c773c') in 0.072217 seconds
+  Import took 0.074931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.117471 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bdcdd06c82d64970ebd48876694990') in 0.031286 seconds
+  Import took 0.035842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.369391 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f1d342a19718822dd54c3683dd174f') in 0.067642 seconds
+  Import took 0.071039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.698815 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99c41d109d0cc0680044a7fcac041a8') in 0.070061 seconds
+  Import took 0.072744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.017682 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fa2d2f968474885e6ea0e74cf6d666') in 0.023060 seconds
+  Import took 0.026374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.772554 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc49d24f050abccddb78629a2569313b') in 0.031085 seconds
+  Import took 0.034589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.217545 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131f15d87d7db7db898eca16b70454eb') in 0.038446 seconds
+  Import took 0.041666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.694983 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5121627fafa517ec21418ee858efecd') in 0.039636 seconds
+  Import took 0.043067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.934701 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a40849b443891a2c8ed4cbf7d10587f') in 0.026668 seconds
+  Import took 0.029383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.297857 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f2f5afd984e7bafce26234a4150440') in 0.023112 seconds
+  Import took 0.025984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ff21a1dc4cc3697fa99fca6a254950') in 0.025797 seconds
+  Import took 0.029291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.831284 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caeeeacdfb229f032c24a8943a09b5d1') in 0.017981 seconds
+  Import took 0.021076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3e465fa89a7b928711c0cab5087858') in 0.023750 seconds
+  Import took 0.026615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.809370 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c526c36c36ea9032d75fae4315831f') in 0.027545 seconds
+  Import took 0.030330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d39e2534e36e1a8f31c931294b0470') in 0.038495 seconds
+  Import took 0.042147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.483270 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4034f509b266b066eae761dde3121d') in 0.041342 seconds
+  Import took 0.043983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881eae1d790cf81de64729ddb8621c2e') in 0.028673 seconds
+  Import took 0.031842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.151198 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b925157bd3f02027a4949b1e211f70c3') in 0.025889 seconds
+  Import took 0.029347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54019b735fa040a14d8ab3c7c0c8f9ec') in 0.026985 seconds
+  Import took 0.030039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.268840 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2363de16722d7b394404ef32e3c55d') in 0.019528 seconds
+  Import took 0.022410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001241 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5c9d7df4f646291258fda9fb24275f') in 0.023068 seconds
+  Import took 0.026853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.048997 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfea9c2acf6cbae381b5fdb66a26bce') in 0.023980 seconds
+  Import took 0.027247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea01f8defefb00a1dd54ce206ebda2d8') in 0.028200 seconds
+  Import took 0.031694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.569471 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c356f9a8ee1275fb3faa1cd65436fe68') in 0.033550 seconds
+  Import took 0.035959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e403236965339a9502dad46ff7901c4') in 0.031647 seconds
+  Import took 0.034722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.012996 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef6c232f0a3a84deac505971146d9e3') in 0.042247 seconds
+  Import took 0.046278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80a998aa0c683f80d08d044585031f4') in 0.028317 seconds
+  Import took 0.031216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.826741 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181c53969b06d1035e3997e272a0708d') in 0.020129 seconds
+  Import took 0.023281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c2550a8afc2e38897a81e7756a3389') in 0.023452 seconds
+  Import took 0.027599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.796275 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f76ab4156f61a5d834f059efe215914') in 0.025161 seconds
+  Import took 0.028612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d0fa4ccbdb5bcb1e2c09f47d8e7f41') in 0.022736 seconds
+  Import took 0.026618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.642624 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7622f5cf851d01418b6bcc2a99a2428f') in 0.020569 seconds
+  Import took 0.023848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9073a693016151d36ce330e471ab0626') in 0.022174 seconds
+  Import took 0.026447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.950720 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7a0339b6cc6926267142b0d488bdc8') in 0.036963 seconds
+  Import took 0.040910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185d0931eb7dc06f6c589b7463d78d13') in 0.025144 seconds
+  Import took 0.028023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.303099 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4bef05afb8ed4c0e787086aaecc39c') in 0.020848 seconds
+  Import took 0.023861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c04698063e6c08f6ca0f9f61f2444a') in 0.022045 seconds
+  Import took 0.025452 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000777 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.4 MB.
+System memory in use after: 62.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1638.
+Total: 2.024900 ms (FindLiveObjects: 0.170800 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.748600 ms  DeleteObjects: 0.061300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.470490 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96ec4f7f58dfdce63781dffb84864df') in 0.087046 seconds
+  Import took 0.089983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.128688 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df440c8c4544aec0c09cb6dcb4168511') in 0.072519 seconds
+  Import took 0.075755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.786824 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fbd20d1b742dacb4a77e696c98489c') in 0.024362 seconds
+  Import took 0.027527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.893695 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5269c166175f02c6f25272d58392a160') in 0.071784 seconds
+  Import took 0.075716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.639475 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403c09f59af2be15ac15701baed4eebb') in 0.030892 seconds
+  Import took 0.036480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.132261 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a4384d78c463c83db2ab53ace9d51b') in 0.020613 seconds
+  Import took 0.023638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.149176 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffa898f435aa323109ef33b317adab5') in 0.029756 seconds
+  Import took 0.034124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.020423 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bcff3adb8f380c9f2849d7e9b834bf') in 0.024304 seconds
+  Import took 0.029572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.703536 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8be6d04584a3bd18696616d6828fec') in 0.032351 seconds
+  Import took 0.036619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.030552 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1abf75df0e55d7c154d2f9982a8901e') in 0.036164 seconds
+  Import took 0.039371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.793893 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2889cb089c486a0005c62eefa4485a7e') in 0.038002 seconds
+  Import took 0.059091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.585707 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ff0969105ccd1f5d64dcd8cb132b78') in 0.073519 seconds
+  Import took 0.077000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.344551 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8119a346f802afd26350f314aff8810') in 0.039296 seconds
+  Import took 0.043378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.003598 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6594bf2f23c85c72875c9af75eacfa3') in 0.047676 seconds
+  Import took 0.051329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.975156 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255e43a4d31c60feddb4553fd60e41cf') in 0.025859 seconds
+  Import took 0.029541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.966196 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9e22f56452abf6018dc68514e23791') in 0.026690 seconds
+  Import took 0.030498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.832005 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5a26ce4c2cc4ae9d15aa488256b589') in 0.023915 seconds
+  Import took 0.026857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.066488 seconds.
+  path: Assets/Scenes/HardScene.unity
+  artifactKey: Guid(5093a7ba4db043a4fbcd564eb055a308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HardScene.unity using Guid(5093a7ba4db043a4fbcd564eb055a308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706dcbd0acd42ea75463903df8edf25f') in 0.009675 seconds
+  Import took 0.012772 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001051 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.4 MB.
+System memory in use after: 62.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1642.
+Total: 1.730400 ms (FindLiveObjects: 0.144600 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.487500 ms  DeleteObjects: 0.056500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000772 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.984 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.4 MB.
+System memory in use after: 62.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1645.
+Total: 1.902300 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.110700 ms MarkObjects: 1.568300 ms  DeleteObjects: 0.075300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001049 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.4 MB.
+System memory in use after: 62.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1648.
+Total: 1.885400 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.634800 ms  DeleteObjects: 0.061300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.5 MB.
+System memory in use after: 62.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1651.
+Total: 1.820500 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.535800 ms  DeleteObjects: 0.058700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000742 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.5 MB.
+System memory in use after: 62.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1654.
+Total: 2.032100 ms (FindLiveObjects: 0.131700 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.809000 ms  DeleteObjects: 0.056000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001772 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.5 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1658.
+Total: 1.910400 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.659100 ms  DeleteObjects: 0.056800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 619.834134 seconds.
+  path: Assets/boost.mat
+  artifactKey: Guid(cc03d34f7a947314190fdf52132465f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/boost.mat using Guid(cc03d34f7a947314190fdf52132465f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de97d7251450d4ea8b3e5cdf91d53ec4') in 0.098184 seconds
+  Import took 0.100697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.874234 seconds.
+  path: Assets/BoostMode.cs
+  artifactKey: Guid(766d43740b749ca448fe9dd2ef131368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoostMode.cs using Guid(766d43740b749ca448fe9dd2ef131368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bf8edbc33a7379aa32ea99dad90c4e') in 0.011504 seconds
+  Import took 0.014462 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.5 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1662.
+Total: 2.089000 ms (FindLiveObjects: 0.143800 ms CreateObjectMapping: 0.030800 ms MarkObjects: 1.857100 ms  DeleteObjects: 0.056100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.755875 seconds.
+  path: Assets/BoostMode.cs
+  artifactKey: Guid(766d43740b749ca448fe9dd2ef131368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BoostMode.cs using Guid(766d43740b749ca448fe9dd2ef131368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be539e38049d7676ccc40c85c3d3505') in 0.004944 seconds
+  Import took 0.007392 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001419 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.5 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1665.
+Total: 1.945400 ms (FindLiveObjects: 0.146900 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.704200 ms  DeleteObjects: 0.060100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000769 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.113 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.5 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1668.
+Total: 2.026300 ms (FindLiveObjects: 0.219900 ms CreateObjectMapping: 0.068300 ms MarkObjects: 1.675500 ms  DeleteObjects: 0.061500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.5 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1671.
+Total: 2.204400 ms (FindLiveObjects: 0.165700 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.940000 ms  DeleteObjects: 0.060900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 306.960110 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77497ba62bfe64f2660c66125b24a960') in 0.073930 seconds
+  Import took 0.077231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1cf16d1332de0321c020a0e5fb3ccf') in 0.028100 seconds
+  Import took 0.031515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77497ba62bfe64f2660c66125b24a960') in 0.018552 seconds
+  Import took 0.022398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.510509 seconds.
+  path: Assets/Prefabs/Boost.prefab
+  artifactKey: Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boost.prefab using Guid(3db24d41f7bde5948bdeb6e8d40fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dc67a14d33ae79eccafedd8c24cb57') in 0.020167 seconds
+  Import took 0.023305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Prefabs/HelixPlatform.prefab
+  artifactKey: Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HelixPlatform.prefab using Guid(a1c0ea3d586d92f47902c2bf5d202956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f7bdd36952fc9aa4a9a24d06984f9e') in 0.025931 seconds
+  Import took 0.029818 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.646 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1675.
+Total: 2.174600 ms (FindLiveObjects: 0.158300 ms CreateObjectMapping: 0.043600 ms MarkObjects: 1.912600 ms  DeleteObjects: 0.058400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001057 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.244 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 1.708400 ms (FindLiveObjects: 0.149500 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.458000 ms  DeleteObjects: 0.057200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 2.534200 ms (FindLiveObjects: 0.148800 ms CreateObjectMapping: 0.030600 ms MarkObjects: 2.271200 ms  DeleteObjects: 0.082400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001071 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1684.
+Total: 1.930700 ms (FindLiveObjects: 0.160600 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.678700 ms  DeleteObjects: 0.059500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000963 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1687.
+Total: 2.008800 ms (FindLiveObjects: 0.151900 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.762700 ms  DeleteObjects: 0.061400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.990 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1690.
+Total: 2.056800 ms (FindLiveObjects: 0.154700 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.799900 ms  DeleteObjects: 0.069000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000778 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 1.706900 ms (FindLiveObjects: 0.163800 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.440900 ms  DeleteObjects: 0.060300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1696.
+Total: 2.045000 ms (FindLiveObjects: 0.153600 ms CreateObjectMapping: 0.031500 ms MarkObjects: 1.801000 ms  DeleteObjects: 0.058000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001110 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 1.867600 ms (FindLiveObjects: 0.139300 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.636000 ms  DeleteObjects: 0.056300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001068 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.0 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 2.257600 ms (FindLiveObjects: 0.162800 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.984700 ms  DeleteObjects: 0.066900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001105 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.990 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.0 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1705.
+Total: 1.970700 ms (FindLiveObjects: 0.146500 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.720100 ms  DeleteObjects: 0.064000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000733 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.0 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 1.795400 ms (FindLiveObjects: 0.154900 ms CreateObjectMapping: 0.044200 ms MarkObjects: 1.520000 ms  DeleteObjects: 0.075000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.0 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 1.935900 ms (FindLiveObjects: 0.165500 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.666600 ms  DeleteObjects: 0.061000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000758 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.0 MB.
+System memory in use after: 63.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1714.
+Total: 2.257100 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.033200 ms MarkObjects: 2.002200 ms  DeleteObjects: 0.063700 ms)
+
